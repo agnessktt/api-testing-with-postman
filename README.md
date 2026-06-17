@@ -130,7 +130,7 @@ Kiểm tra khả năng gửi dữ liệu từ Client đến Server.
 ### Request
 
 ```http
-POST https://postman-echo.com/post
+GET https://postman-echo.com/get?name=Linh
 ```
 
 ### Body
@@ -149,9 +149,14 @@ pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
 
-pm.test("Name is Linh", function () {
+pm.test("Parameter name exists", function () {
     let data = pm.response.json();
-    pm.expect(data.data.name).to.eql("Linh");
+    pm.expect(data.args.name).to.eql("Linh");
+});
+
+pm.test("Response contains args", function () {
+    let data = pm.response.json();
+    pm.expect(data).to.have.property("args");
 });
 ```
 
