@@ -73,6 +73,10 @@ pm.test("URL is correct", function () {
 
 ![Request 1](images/request1.png)
 
+### Kết quả Test Script
+
+![Test Result 1](images/test-result1.png)
+
 ---
 
 ## Kịch bản 2: Kiểm thử Endpoint không tồn tại
@@ -110,6 +114,10 @@ pm.test("Status code is 404", function () {
 ### Hình minh họa
 
 ![Request 2](images/request2.png)
+
+### Kết quả Test Script
+
+![Test Result 2](images/test-result2.png)
 
 ---
 
@@ -164,6 +172,10 @@ pm.test("Name is Linh", function () {
 ### Hình minh họa
 
 ![Request 3](images/request3.png)
+
+### Kết quả Test Script
+
+![Test Result 3](images/test-result3.png)
 
 ---
 
