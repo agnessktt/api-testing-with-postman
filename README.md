@@ -67,7 +67,7 @@ pm.test("URL is correct", function () {
 
 ### Trạng thái
 
-✅ Thành công
+Thành công
 
 ### Hình minh họa
 
@@ -109,7 +109,7 @@ pm.test("Status code is 404", function () {
 
 ### Trạng thái
 
-✅ Thành công (đúng với kết quả mong đợi)
+Thành công 
 
 ### Hình minh họa
 
@@ -167,7 +167,7 @@ pm.test("Name is Linh", function () {
 
 ### Trạng thái
 
-✅ Thành công
+Thành công
 
 ### Hình minh họa
 
